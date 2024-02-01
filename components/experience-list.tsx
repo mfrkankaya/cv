@@ -29,19 +29,8 @@ export default function ExperienceList() {
               </div>
             </div>
 
-            {/* {work?.description && (
+            {work?.description && (
               <p className="mt-4 text-sm text-slate-700">{work.description}</p>
-            )} */}
-
-            {work?.list.length > 0 && (
-              <ul className="space-y-2 mt-4 pl-3">
-                {work.list.map((item) => (
-                  <li key={item} className="text-sm text-slate-700 relative">
-                    <div className="bg-current w-1 h-1 absolute -left-3 top-2 rounded-full" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
             )}
           </div>
         ))}

@@ -3,6 +3,10 @@ export const RESUME_DATA = {
   title: 'Frontend Developer',
   email: 'mfrkankaya@gmail.com',
   phone: process.env.PHONE_NUMBER || '',
+  website: {
+    label: 'fkaya.dev',
+    href: 'https://fkaya.dev'
+  },
   location: 'Tekirdağ, Turkey',
   summary: `Passionate Frontend Developer with over six years of expertise in web development, specializing in React, Next.js, TypeScript, Tailwind CSS, Prisma, and Figma for creating exceptional user experiences.`,
   work: [
@@ -12,13 +16,8 @@ export const RESUME_DATA = {
       title: 'Frontend Developer',
       start: '2021 Aug',
       end: 'Present',
-      list: [
-        'Created a Slack app with TypeScript, @slack/bolt, Express, and Prisma for some features of Meditopia.',
-        'Collaborated on B2B dashboard using Next.js, Tailwind, @radix-ui, Zustand, Prisma, and TypeScript for a streamlined experience.',
-        'Contributed to user-centric web app with Next.js, NextAuth, TypeScript, and styled-components for seamless, secure UX.',
-        'Collaborated on UI Kit development using TypeScript and Styled-Components for consistent, visually appealing UI.',
-        "Key role in Enuygun's Bus domain project development using React, Redux, Material UI, and SCSS for enhanced UX."
-      ],
+      description:
+        "Contributed to Meditopia's Web App, UI Kit, B2B Dashboard, Slack App, Surveys, Marketing pages and more. Technologies used: Next.js, Styled-Components, Tailwind, @radix-ui, Zustand, Prisma, SCSS and TypeScript.",
       forceNewPage: false
     },
     {
@@ -27,19 +26,17 @@ export const RESUME_DATA = {
       title: 'Frontend Developer',
       start: '2020 Feb',
       end: '2021 Jul',
-      list: [
-        'I collaborated with my team to develop an UI Kit for our project, leveraging TypeScript and Styled-Components for a nice looking and consistent user interface.',
-        "I played a key role in the continuous development of a production project in Enuygun's Bus domain using a technology stack that emphasizes React, Redux, Material UI and SCSS for an enhanced and seamless user experience."
-      ],
+      description:
+        "Contributed to Enuygun's Bus project and UI kit. Technologies used: React, Redux, Material UI, SCSS, Styled-Components and TypeScript.",
       forceNewPage: false
     },
     {
       company: 'Doğuş Teknoloji',
       link: 'https://www.d-teknoloji.com.tr/',
-      title: 'Frontend Developer',
+      title: 'Intern Frontend Developer',
       start: '2019 Jul',
       end: '2019 Sep',
-      list: [],
+      description: '',
       forceNewPage: false
     }
   ],

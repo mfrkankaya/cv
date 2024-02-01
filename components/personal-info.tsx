@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { RESUME_DATA } from '@/app/data'
-import { MailIcon, MapPinIcon, PhoneIcon } from 'lucide-react'
+import { GlobeIcon, MailIcon, MapPinIcon, PhoneIcon } from 'lucide-react'
 
 export default function PersonalInfo() {
   return (
@@ -18,6 +18,14 @@ export default function PersonalInfo() {
           <MailIcon size={16} />
           <span>{RESUME_DATA.email}</span>
         </div>
+        <a
+          className="flex items-center gap-1 text-sm text-slate-600"
+          href={RESUME_DATA.website.href}
+          target="_blank">
+          <GlobeIcon size={16} />
+          <span>{RESUME_DATA.website.label}</span>
+        </a>
+
         {!!RESUME_DATA.phone && (
           <div className="flex items-center gap-1 text-sm text-slate-600">
             <PhoneIcon size={16} />
@@ -26,7 +34,9 @@ export default function PersonalInfo() {
         )}
       </div>
       <div className="w-full h-px bg-slate-200 mx-auto my-4 min-w-60" />
-      <p className="font-mono text-slate-700 text-sm sm:text-base">{RESUME_DATA.summary}</p>
+      <p className="font-mono text-slate-700 text-sm sm:text-base">
+        {RESUME_DATA.summary}
+      </p>
     </div>
   )
 }

@@ -8,7 +8,7 @@ export const RESUME_DATA = {
     href: 'https://fkaya.dev'
   },
   location: 'Tekirdağ, Turkey',
-  summary: `Passionate Frontend Developer with over six years of expertise in web development, specializing in React, Next.js, TypeScript, Tailwind CSS, Prisma, and Figma for creating exceptional user experiences.`,
+  summary: `Frontend Developer with over six years of expertise in web development, specializing in React, Next.js, TypeScript, Tailwind CSS, Prisma, and Figma for creating exceptional user experiences.`,
   work: [
     {
       company: 'Meditopia',
@@ -17,7 +17,7 @@ export const RESUME_DATA = {
       start: '2021 Aug',
       end: 'Present',
       description:
-        "Contributed to Meditopia's Web App, UI Kit, B2B Dashboard, Slack App, Surveys, Marketing pages and more. Technologies used: Next.js, Styled-Components, Tailwind, @radix-ui, Zustand, Prisma, SCSS and TypeScript.",
+        "Contributed to Meditopia's Web App, UI Kit, B2B Dashboard, Slack App, Surveys, Marketing pages and more. Technologies used: Next.js, Styled-Components, Tailwind, @radix-ui, React Query, Zustand, Prisma, SCSS and TypeScript.",
       forceNewPage: false
     },
     {
